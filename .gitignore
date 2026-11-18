@@ -1,0 +1,22 @@
+# 临时文件
+/.tmp/
+
+# 数据、权重、环境目录：大文件不入库
+/data/
+/datasets/
+/checkpoints/
+/weights/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+/.venv/
+/venv/
+
+# 各执行者的 worktree 和本机设置
+/.claude/worktrees/
+.claude/settings.local.json
+
+__pycache__/
+*.pyc
+.DS_Store
